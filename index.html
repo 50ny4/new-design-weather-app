@@ -4,62 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bubbler+One&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
     <title>2024 Weather</title>
 </head>
 
 <body>
-    <header>
-        <h1>2024 Weather</h1>
-    </header>
+    <div class="background-box">
+        <header>
+            <h1>2024 Weather</h1>
+        </header>
 
-    <main>
-        <form>
-            <input type="search" id="search-city" placeholder="Search..." required>
-            <input type="submit" value="Search">
-            <span>Birmingham</span>
-        </form>
+        <main>
+            <form>
+                <input type="search" id="search-city" placeholder="Search..." required>
+                <input type="submit" value="Search">
+                <span>Birmingham</span>
+            </form>
+            <br>
+            <div>
+                <img src="🌧️" id="weather-img">
+                <span id="today-forecast">Windy</span>
+
+            </div>
+
+            <div>
+                <span id="cur-temp">10℃</span>
+                <span id="cur-time">13:38pm</span>
+
+            </div>
+            <div>Precipitation
+                <span id="prec">2%</span>
+            </div>
+            <div>Wind
+                <span id="Wind">6mph</span>
+            </div>
+            <div>Humidity
+                <span id="humi">41%</span>
+            </div>
+
+            <div>
+
+            </div>
+
+        </main>
+
         <br>
-        <div>
-            <img src="🌧️" id="weather-img">
-            <span id="today-forecast">Windy</span>
-
-        </div>
-
-        <div>
-            <span id="cur-temp">10℃</span>
-            <span id="cur-time">13:38pm</span>
-
-        </div>
-        <div>Precipitation
-            <span id="prec">2%</span>
-        </div>
-        <div>Wind
-            <span id="Wind">6mph</span>
-        </div>
-        <div>Humidity
-            <span id="humi">41%</span>
-        </div>
-
-        <div>
-
-        </div>
-
-    </main>
-
-
-
-
-
-
-
-
-
-    <br>
-    <footer>Coded by <a href="https://github.com/50ny4" target="_blank"> Sonya Parmar.</a>
-        Open source on <a href="https://github.com/50ny4/new-design-weather-app" target="_blank"> Github.</a>
-        Hosted on <a href="https://2024weather.netlify.app/" target="_blank"> Netlify.</a>
-    </footer>
-
+        <footer>Coded by <a href="https://github.com/50ny4" target="_blank"> Sonya Parmar.</a>
+            Open source on <a href="https://github.com/50ny4/new-design-weather-app" target="_blank"> Github.</a>
+            Hosted on <a href="https://2024weather.netlify.app/" target="_blank"> Netlify.</a>
+        </footer>
+    </div>
 </body>
 
 

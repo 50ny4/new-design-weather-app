@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(244, 251, 251);
+  padding-top: 50px;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.background-box {
+  background-color: white;
+  margin: 30px auto;
+  max-width: 500px;
+  box-shadow: 0 30px 50px rgb(183, 182, 182);
+  padding: 30px;
+  border-radius: 15px;
+}

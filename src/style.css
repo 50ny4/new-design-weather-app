@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(244, 251, 251);
+  background-color: rgb(234, 239, 239);
   padding-top: 50px;
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
@@ -10,8 +10,62 @@ body {
 .background-box {
   background-color: white;
   margin: 30px auto;
-  max-width: 500px;
+  max-width: 650px;
   box-shadow: 0 30px 50px rgb(183, 182, 182);
-  padding: 30px;
+  padding: 20px;
   border-radius: 15px;
+}
+
+a {
+  color: rgb(147, 181, 246);
+}
+
+header {
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.search-input {
+  background-color: rgb(234, 239, 239);
+  width: 80%;
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.search-btn {
+  border-radius: 5px;
+  font-size: 16px;
+  width: 15%;
+  border: none;
+  color: white;
+  background-color: rgb(147, 181, 246);
+  padding: 10px 15px;
+  margin-left: 15px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-info {
+  font-size: 25px;
+}
+
+.temp-tdy {
+  font-size: 30px;
+}
+
+h1 {
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 10px;
+  color: rgb(170, 170, 170);
 }

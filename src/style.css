@@ -12,7 +12,7 @@ body {
   margin: 30px auto;
   max-width: 650px;
   box-shadow: 0 30px 50px rgb(183, 182, 182);
-  padding: 20px;
+  padding: 30px;
   border-radius: 15px;
 }
 
@@ -23,6 +23,11 @@ a {
 header {
   padding-bottom: 25px;
   text-align: center;
+}
+
+.city-name {
+  padding-bottom: 20px;
+  margin: 0 auto;
 }
 
 .search-input {
@@ -56,13 +61,13 @@ header {
 
 .temp-tdy {
   font-size: 30px;
+  color: rgb(147, 181, 246);
+  font-weight: 500;
 }
 
-h1 {
-  padding-bottom: 20px;
-  margin: 0 auto;
+.details strong {
+  color: rgb(147, 181, 246);
 }
-
 footer {
   text-align: center;
   font-size: 13px;
